@@ -30,7 +30,7 @@ DELIVERABLE
 # 3. Out: Four reordered lists and the original list at the end
 # 4. My four orders, and which ones modify the original:
 # Ascending, descending, reversed and shifted by one position
-# None of them modify the original. sort() will only be used on a copy of the original list
+# None of them modify the original. sorted() and slicing create new lists
 
 
 # Your code below
