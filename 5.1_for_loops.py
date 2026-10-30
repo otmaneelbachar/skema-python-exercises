@@ -43,11 +43,11 @@ for i in names:
     length = len(i)
     print("Name: ", i, "Length:" , length)
 
-    budgets = [200, 350, 150, 500, 300, 400, 250, 450]
+budgets = [200, 350, 150, 500, 300, 400, 250, 450]
 
 total = sum(budgets)
 
 for position, budget in enumerate(budgets, start=1):
     percentage = (budget / total) * 100
     print("Position:", position, "Budget:", budget, "Percentage:", round(percentage, 2), "%")
-    # Test: 8 budgets in the list and exactly 8 lines printed
+# Test: 8 budgets in the list and exactly 8 lines printed
